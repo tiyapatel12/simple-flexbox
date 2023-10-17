@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+img{
+    width: 100%;
+}
+#header{
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center;
+}
+#row{
+    /* use flexbox on the parent div to layout a row or column of child divs */
+    display: flex;
+    /* use row for desktop and tablet layout */
+    flex-direction: row;
+    /* wrap is used with tablets layout to create an extra row */
+    flex-wrap: wrap;
+}
+.column{
+    /* flex 1 sets flex-grow to 1, flex-shrink to 1 and flex-basis to 1
+    flex-basis of 1 means children colums will have equal width */
+    flex: 1;
+    /* because box-sizeing = border box, padding is counted as part of the overall width of the column */
+    padding: 10px;
+}
+#col1{
+    background-color: aqua;
+}
+#col2{
+    background-color: blueviolet;
+}
+#col3{
+    background-color: aquamarine;
+}
+#col4{
+    background-color: cornflowerblue;
+}
+#footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    background-color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+@media screen and (max-width:900px){
+    .column{
+        min-width:50%; 
+    }
+}
