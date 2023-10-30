@@ -8,6 +8,7 @@ h1{
 }
 h4{font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
+    color: black;
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -42,44 +43,110 @@ img{
 #col1{
     background-color:#81a0ce;
 }
+#alex:hover{
+    background-color:#a3badb;
+}
+#alex:active{
+    background-color:#5a84bf;
+}
 #col2{
     background-color: #FFDDD4;
+}
+#elliot:hover{
+    background-color:#FFFFFF;
+}
+#elliot:active{
+    background-color:#ffc3b3;
 }
 #col3{
     background-color: #E5DEC4;
 }
+#harvey:hover{
+    background-color:#efebdc;
+}
+#harvey:active{
+    background-color:#cfc396;
+}
 #col4{
     background-color: #70AAFE;
+}
+#sam:hover{
+    background-color:#9ac4fe;
+}
+#sam:active{
+    background-color:#3588fd;
 }
 #col5{
     background-color: #7FA9A8;
 }
+#sebastian:hover{
+    background-color:#a3c2c2;
+}
+#sebastian:active{
+    background-color:#669999;
+}
 #col6{
     background-color:#AA6967;
+}
+#shane:hover{
+    background-color:#bf8e8d;
+}
+#shane:active{
+    background-color:#935453;
 }
 #col7{
     background-color:#4B6C71 ;
 }
+#abigail:hover{
+    background-color:#5c848a;
+}
+#abigail:active{
+    background-color:#33494d;
+}
 #col8{
     background-color:#FF7467;
+}
+#emily:hover{
+    background-color:#ffa299;
+}
+#emily:active{
+    background-color:#ff4433;
 }
 #col9{
     background-color:#FCD3B7;
 }
+#haley:hover{
+    background-color:#fef0e7;
+}
+#haley:active{
+    background-color:#fab285;
+}
 #col10{
     background-color:#FCF8ED;
+}
+#leah:hover{
+    background-color:#FFFFFF;
+}
+#leah:active{
+    background-color:#f3e4be;
 }
 #col11{
     background-color:#FFFFFF;
 }
+#maru:hover{
+    background-color:#e6e6e6;
+}
+#maru:active{
+    background-color:#b3b3b3;
+}
 #col12{
     background-color:#EABAFF;
 }
-a p:hover{
-    background-color: black;
+#penny:hover{
+    background-color:#f7e6ff;
 }
-a p:active{
-
+#penny:active{
+    background-color:#d780ff;
 }
 #footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
