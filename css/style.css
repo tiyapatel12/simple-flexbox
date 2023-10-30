@@ -23,8 +23,6 @@ img{
 }
 #title{
     background-color: whitesmoke;
-    padding: 20px;
-    text-align: center;
 }
 #row{
     /* use flexbox on the parent div to layout a row or column of child divs */
@@ -42,16 +40,40 @@ img{
     padding: 10px;
 }
 #col1{
-    background-color: aqua;
+    background-color:#81a0ce;
 }
 #col2{
-    background-color: blueviolet;
+    background-color: #FFDDD4;
 }
 #col3{
-    background-color: aquamarine;
+    background-color: #E5DEC4;
 }
 #col4{
-    background-color: cornflowerblue;
+    background-color: #70AAFE;
+}
+#col5{
+    background-color: #7FA9A8;
+}
+#col6{
+    background-color:#AA6967;
+}
+#col7{
+    background-color:#4B6C71 ;
+}
+#col8{
+    background-color:#FF7467;
+}
+#col9{
+    background-color:#FCD3B7;
+}
+#col10{
+    background-color:#FCF8ED;
+}
+#col11{
+    background-color:#FFFFFF;
+}
+#col12{
+    background-color:#EABAFF;
 }
 #footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
