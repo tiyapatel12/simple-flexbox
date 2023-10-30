@@ -75,6 +75,13 @@ img{
 #col12{
     background-color:#EABAFF;
 }
+a p:hover{
+    background-color: black;
+    text-decoration: #FFFFFF;
+}
+a p:active{
+
+}
 #footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8rem;
