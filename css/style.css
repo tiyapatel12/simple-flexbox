@@ -21,6 +21,11 @@ img{
     padding: 30px;
     text-align: center;
 }
+#title{
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
 #row{
     /* use flexbox on the parent div to layout a row or column of child divs */
     display: flex;
