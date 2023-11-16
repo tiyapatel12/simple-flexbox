@@ -1,32 +1,45 @@
-*{
+/* * {
     box-sizing: border-box;
     margin: 0;
+    /* gives the whole document no margin - can set manually later on in respective divs */
 }
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
     font-size: 3rem;
+    padding: 1%;
 }
-h4{font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+h4 {
+    font-family:'Patrick Hand', cursive;
     font-size: 2rem;
     color: black;
+    text-align: center;
 }
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+p {
+    font-family: 'Patrick Hand', cursive;
     font-size: 1rem;
 }
-img{
+
+img {
     width: 100%;
+    /* makes image widths all the same size, helps the flex box create equal columns */
 }
-#header{
+
+#header {
     background-color: aliceblue;
     padding: 30px;
     text-align: center;
 }
+
 /* padding added to make the div larger, gives the type a margin, centres text with text align */
-#title{
+#title {
     background-color: whitesmoke;
 }
-#row{
+
+/* container for flexboxes */
+#row {
     /* use flexbox on the parent div to layout a row or column of child divs */
     display: flex;
     /* use row for desktop and tablet layout */
@@ -34,139 +47,182 @@ img{
     /* wrap is used with tablets layout to create an extra row */
     flex-wrap: wrap;
 }
-.column{
+
+/* create equal columns that sit next to eachother */
+.column {
     /* flex 1 sets flex-grow to 1, flex-shrink to 1 and flex-basis to 1
     flex-basis of 1 means children colums will have equal width */
     flex: 1;
     /* because box-sizeing = border box, padding is counted as part of the overall width of the column */
     padding: 10px;
 }
+
 /* background colour of a specific column, identiified with id */
-#col1{
-    background-color:#81a0ce;
+#col1 {
+    background-color: #81a0ce;
 }
+
 /* when hovering over name it changes to a lighter colour than the column background colour */
-#alex:hover{
-    background-color:#a3badb;
+#alex:hover {
+    background-color: #a3badb;
 }
+
 /* to indicate click, it changes to a darker colour than the column background colour */
-#alex:active{
-    background-color:#5a84bf;
+#alex:active {
+    background-color: #5a84bf;
 }
-#col2{
+
+#col2 {
     background-color: #FFDDD4;
 }
-#elliot:hover{
-    background-color:#FFFFFF;
+
+#elliot:hover {
+    background-color: #FFFFFF;
 }
-#elliot:active{
-    background-color:#ffc3b3;
+
+#elliot:active {
+    background-color: #ffc3b3;
 }
-#col3{
+
+#col3 {
     background-color: #E5DEC4;
 }
-#harvey:hover{
-    background-color:#efebdc;
+
+#harvey:hover {
+    background-color: #efebdc;
 }
-#harvey:active{
-    background-color:#cfc396;
+
+#harvey:active {
+    background-color: #cfc396;
 }
-#col4{
+
+#col4 {
     background-color: #70AAFE;
 }
-#sam:hover{
-    background-color:#9ac4fe;
+
+#sam:hover {
+    background-color: #9ac4fe;
 }
-#sam:active{
-    background-color:#3588fd;
+
+#sam:active {
+    background-color: #3588fd;
 }
-#col5{
+
+#col5 {
     background-color: #7FA9A8;
 }
-#sebastian:hover{
-    background-color:#a3c2c2;
+
+#sebastian:hover {
+    background-color: #a3c2c2;
 }
-#sebastian:active{
-    background-color:#669999;
+
+#sebastian:active {
+    background-color: #669999;
 }
-#col6{
-    background-color:#AA6967;
+
+#col6 {
+    background-color: #AA6967;
 }
-#shane:hover{
-    background-color:#bf8e8d;
+
+#shane:hover {
+    background-color: #bf8e8d;
 }
-#shane:active{
-    background-color:#935453;
+
+#shane:active {
+    background-color: #935453;
 }
-#col7{
-    background-color:#4B6C71 ;
+
+#col7 {
+    background-color: #4B6C71;
 }
-#abigail:hover{
-    background-color:#5c848a;
+
+#abigail:hover {
+    background-color: #5c848a;
 }
-#abigail:active{
-    background-color:#33494d;
+
+#abigail:active {
+    background-color: #33494d;
 }
-#col8{
-    background-color:#FF7467;
+
+#col8 {
+    background-color: #FF7467;
 }
-#emily:hover{
-    background-color:#ffa299;
+
+#emily:hover {
+    background-color: #ffa299;
 }
-#emily:active{
-    background-color:#ff4433;
+
+#emily:active {
+    background-color: #ff4433;
 }
-#col9{
-    background-color:#FCD3B7;
+
+#col9 {
+    background-color: #FCD3B7;
 }
-#haley:hover{
-    background-color:#fef0e7;
+
+#haley:hover {
+    background-color: #fef0e7;
 }
-#haley:active{
-    background-color:#fab285;
+
+#haley:active {
+    background-color: #fab285;
 }
-#col10{
-    background-color:#FCF8ED;
+
+#col10 {
+    background-color: #FCF8ED;
 }
-#leah:hover{
-    background-color:#FFFFFF;
+
+#leah:hover {
+    background-color: #FFFFFF;
 }
-#leah:active{
-    background-color:#f3e4be;
+
+#leah:active {
+    background-color: #f3e4be;
 }
-#col11{
-    background-color:#FFFFFF;
+
+#col11 {
+    background-color: #FFFFFF;
 }
-#maru:hover{
-    background-color:#e6e6e6;
+
+#maru:hover {
+    background-color: #e6e6e6;
 }
-#maru:active{
-    background-color:#b3b3b3;
+
+#maru:active {
+    background-color: #b3b3b3;
 }
-#col12{
-    background-color:#EABAFF;
+
+#col12 {
+    background-color: #EABAFF;
 }
-#penny:hover{
-    background-color:#f7e6ff;
+
+#penny:hover {
+    background-color: #f7e6ff;
 }
-#penny:active{
-    background-color:#d780ff;
+
+#penny:active {
+    background-color: #d780ff;
 }
-#footer{
+
+/* style the footer */
+#footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8rem;
     background-color: aliceblue;
     padding: 15px;
     text-align: center;
 }
-@media screen and (max-width:900px){
-    .column{
-        min-width:50%; 
+
+/* responsive layout - makes the columns stack on top of eachother instead of next to eachother */
+@media screen and (max-width:900px) {
+    .column {
+        min-width: 50%;
     }
 }
+
 /* Max-width is a for a phone screen, min-width makes the flex box into one column */
-@media screen and (max-width:590px){
-    .column{
-        min-width:75%; 
+@media screen and (max-width:590px) {
+    .column {
+        min-width: 75%;
     }
-}
+} */
