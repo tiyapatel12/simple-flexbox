@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     /* gives the whole document no margin - can set manually later on in respective divs */
-}
 
 h1 {
     font-family: 'Luckiest Guy', cursive;
@@ -225,4 +224,4 @@ img {
     .column {
         min-width: 75%;
     }
-} */
+}
